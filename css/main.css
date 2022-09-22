@@ -271,6 +271,10 @@ body {
     position: relative;
     top: 1px;
 }
+.order_btn-white {
+    max-width: 222px;
+    color: #fff;
+}
 /* /books=============== */
 
 /* author=============== */
@@ -398,3 +402,30 @@ body {
     margin-bottom: auto;
 }
 /* /brands============== */
+
+/* order================ */
+.order {
+    background-color: #1b3764;
+    padding: 70px 0;
+}
+.order_inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 50px;
+    row-gap: 40px;
+}
+.order_data {
+    max-width: 540px;
+}
+.order_descr {
+    font-size: 19px;
+    line-height: 28px;
+    color: #b4c7e7;
+    margin-bottom: 46px;
+}
+.order_image {
+    max-width: 560px;
+}
+/* /order=============== */
