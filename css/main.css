@@ -429,3 +429,56 @@ body {
     max-width: 560px;
 }
 /* /order=============== */
+
+/* learn================ */
+.learn {
+    padding: 136px 0;
+    background-color: #fff;
+}
+.learn_inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 40px;
+}
+.learn_steps {
+    max-width: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.steps_item {
+    background-color:#b4c7e7;
+    max-width: 300px;
+    min-height: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px;
+    row-gap: 20px;
+    
+    font-family: 'Cardo', serif;
+    color: #1b3764;
+}
+.steps_count {
+    width: 50px;
+    height: 50px;
+    background-color:#ffca42;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+.steps_descr {
+    font-size: 24px;
+    line-height: 33px;
+}
+.learn_image {
+    max-width: 556px;
+}
+/* /learn=============== */
