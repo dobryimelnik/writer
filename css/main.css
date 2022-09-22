@@ -18,6 +18,7 @@ body {
 .btn {
     background-color: #ffca42;
     padding: 18px 50px;
+    text-align: center;
     font-family: 'Cardo', serif;
     font-size: 18px;
     line-height: 28px;
@@ -30,6 +31,26 @@ body {
 .btn:active {
     position: relative;
     top: 1px;
+}
+.section_title {
+    font-size: 42px;
+    line-height: 50px;
+    font-family: 'Cardo', serif;
+    color: #1b3764;
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+.section_title::after {
+    display: block;
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: #ffca42;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 /* header ============= */
 .header {
@@ -159,3 +180,86 @@ body {
     color: #b4c7e7;
 }
 /* /intro=============== */
+
+/* books================ */
+.books {
+    padding: 130px 0;
+    background-color: #f5f5f5;
+}
+.books_inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 50px;
+    row-gap: 40px;
+}
+.books_item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+.books_image {
+    max-width: 285px;
+    height: auto;
+}
+.books_data {
+    max-width: 285px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.book_heading {
+    font-size: 32px;
+    line-height: 38px;
+    font-family: 'Cardo', serif;
+    color: #1b3764;
+}
+.book_price {
+    font-size: 22px;
+    line-height: 32px;
+    color: #ffca42;
+}
+.book_descr {
+    font-size: 19px;
+    line-height: 28px;
+    color: #969aa0;
+    max-width: 287px;
+}
+.book_kind {
+    font-size: 24px;
+    line-height: 29px;
+    color: #1b3764;
+    font-family: 'Cardo', serif;
+    position: relative;
+    top: 0;
+    left: 20px;
+}
+.book_kind::before {
+    display: block;
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-color: #ffca42;
+    border-radius: 50%;
+    position: absolute;
+    left: -20px;
+    top: 7px;
+}
+.order_btn {
+    font-family: 'Cardo', serif;
+    font-size: 19px;
+    line-height: 28px;
+    color: #1b3764;
+    text-align: center;
+    padding: 18px 50px;
+    border: 2px solid #ffca42;
+    max-width: 202px;
+}
+.order_btn:active {
+    position: relative;
+    top: 1px;
+}
+/* /books=============== */
