@@ -263,3 +263,89 @@ body {
     top: 1px;
 }
 /* /books=============== */
+
+/* author=============== */
+.author {
+    background-color: #f5f8fc;
+    padding: 150px 0;
+}
+.author_inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+.author_photo {
+    max-width: 500px;
+}
+.author_data {
+    max-width: 600px;
+}
+.author_title {
+    text-align: left;
+}
+.author_title.section_title::after {
+    left: 24px;
+}
+.author_descr {
+    font-size: 19px;
+    line-height: 34px;
+    color: #969aa0;
+    margin-bottom: 20px;
+}
+.author_benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+.benefits_item {
+    border-right: 1px solid #ffca42;
+    padding: 0 20px;
+}
+.benefits_item:last-child {
+    border-right: none;
+}
+.benefit_count {
+    font-family: 'Cardo', serif;
+    color: #1b3764;
+    font-size: 54px;
+    line-height: 77px;
+    text-align: center;
+}
+.benefit_descr {
+    font-size: 17px;
+    line-height: 21px;
+    color: #969aa0;
+}
+.author_card {
+    background-color: #1b3764;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 20px;
+    max-width: 490px;
+    padding: 10px;
+}
+.card_data {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.card_heading {
+    font-family: 'Cardo', serif;
+    font-size: 22px;
+    line-height: 26px;
+    color: #ffca42;
+}
+.card_email,
+.card_tel {
+    font-size: 18px;
+    line-height: 28px;
+    color: #b4c7e7;
+}
+/* /author============== */
