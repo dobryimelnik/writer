@@ -1,0 +1,10 @@
+@media screen and (max-width: 1420px) {
+    .intro_image {
+        max-width: 400px;
+    }
+    .intro_inner {
+        flex-direction: column;
+        max-width: 580px;
+        margin: 0 auto;
+    }
+}
