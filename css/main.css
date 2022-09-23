@@ -481,4 +481,64 @@ body {
 .learn_image {
     max-width: 556px;
 }
-/* /learn=============== */
+/* trial================ */
+.trial {
+    padding: 116px 0;
+    background-color: #f4f8ff;
+}
+.trial_chapters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 40px;
+}
+.chapter_item {
+    max-width: 600px;
+    min-height: 240px;
+    background-color: #fff;
+    padding: 40px;
+}
+.chapter_heading {
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Cardo', serif;
+    color: #1b3764;
+    margin-bottom: 10px;
+}
+.chapter_descr {
+    font-size: 19px;
+    line-height: 32px;
+    max-width: 530px;
+    margin-bottom: 30px;
+    color: #969aa0;
+}
+.chapter_characteristic {
+    display: flex;
+    column-gap: 56px;
+    row-gap: 30px;
+
+}
+.chapter-char_title {
+    color: #1b3764;
+}
+.trial_offer {
+    display: flex;
+    flex-direction: column;
+    max-width: 430px;
+    margin: 70px auto 0;
+    text-align: center;
+    row-gap: 20px;
+}
+.trial_btn {
+    max-width: 100%;
+}
+.trial_offer > p {
+    font-size: 19px;
+    line-height: 28px;
+    color: #969aa0;
+}
+.trial_offer a {
+    color: #1b3764;
+}
+/* /trial=============== */
