@@ -626,3 +626,67 @@ body {
     color: #b4c7e7;
 }
 /* .testimonials======== */
+
+/* articles============= */
+.articles {
+    background-color: #f4f8ff;
+    padding: 126px 20px;
+}
+.articles_title {
+    margin-bottom: 80px;
+}
+.articles_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+.articles_item {
+    max-width: 400px;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.article_image {
+    max-width: 400px;
+}
+.article_content {
+    padding: 35px 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.article_heading {
+    font-size: 24px;
+    line-height: 33px;
+    color: #1b3764;
+    font-family: 'Cardo', serif;
+}
+.article_link {
+    color: inherit;
+}
+.article_descr {
+    font-size: 19px;
+    line-height: 30px;
+    color: #969aa0;
+}
+.article_wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.more_link {
+    font-size: 19px;
+    line-height: 22px;
+    color: #1b3764;
+    font-family: 'Cardo', serif;
+    display: inline-block;
+    border-bottom: 1px solid #1b3764;
+}
+.article_date {
+    font-size: 16px;
+    line-height: 25px;
+    color: #1b3764;
+    display: inline-block;
+}
+/* /articles============ */
